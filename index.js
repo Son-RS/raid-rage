@@ -50,7 +50,7 @@ client.on("guildMemberAdd", member => {
     const sorted = Object.entries(counts).sort((a, b) => a[1] > b[1])
 
     // Filter results to obtain any arrays with more than one member (non-unique shortened member IDs)
-      .filter(s => s[1].length > criteria);
+      .filter(s => s[1].length >= criteria);
 
     // If there are any filtered results
     if (sorted.length > 0) {
