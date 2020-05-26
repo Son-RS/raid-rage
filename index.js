@@ -66,6 +66,10 @@ client.on("guildMemberAdd", member => {
       });
     
     }
+
+    // Reset the Enmap to begin counting again
+    client.newUsers.clear();
+
   }
 
 });
