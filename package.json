@@ -1,0 +1,17 @@
+{
+  "name": "raid-rage",
+  "version": "0.0.1",
+  "description": "An anti-raid bot for Discord servers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "maximill-io",
+  "license": "ISC",
+  "dependencies": {
+    "better-sqlite3": "^7.0.1",
+    "discord.js": "^12.2.0",
+    "enmap": "^5.2.4"
+  }
+}
